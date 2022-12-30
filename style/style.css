@@ -1,0 +1,29 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('header.css');
+@import url('main-section.css');
+@import url('jobs.css');
+@import url('contributors.css');
+@import url('footer.css');
+
+* {
+  --font-style: "Inter";
+  --font-dark-grey: #3A404E;
+  --font-light-grey: #667085;
+  --font-mega-light-grey: #98A2B3;
+  --dark-red: #8E2424;
+  --dark: #101828;
+  --border-white: #EAECF0;
+  --border-grey: #D0D5DD;
+  --footer-color: #F9FAFB;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+section {
+  margin-bottom: 10em;
+}

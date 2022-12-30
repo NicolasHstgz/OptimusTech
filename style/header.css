@@ -1,0 +1,42 @@
+header {
+  padding: 1.5em 3em;
+  margin-bottom: 3em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 1px 3px black;
+}
+
+.container-logo {
+  display: flex;
+}
+
+.container-logo h1 {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--font-dark-grey);
+  margin-left: 0.3em;
+  position: relative;
+  top: 3px;
+}
+
+.nav-menu {
+  margin-right: auto;
+  margin-left: 6em;
+}
+
+.nav-menu a, .nav-login a:not(.nav-login-button) {
+  margin-right: 1.5em;
+  color: var(--font-light-grey);
+  font-weight: 500;
+}
+
+.nav-login-item {
+  padding: 0.8em 1.2em;
+}
+
+.nav-login-button {
+  background-color: var(--dark-red);
+  color: #FFFFFF;
+  border-radius: 8px;
+}

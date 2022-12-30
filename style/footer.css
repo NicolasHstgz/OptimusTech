@@ -1,0 +1,39 @@
+footer {
+  background-color: var(--footer-color);
+  text-align: center;
+  padding: 5em 0;
+}
+
+footer h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--dark);
+  margin-bottom: 1em;
+}
+
+footer h2 + p {
+  font-size: 20px;
+  color: var(--font-light-grey);
+}
+
+#email {
+  padding: 1em 1em;
+  border-radius: 8px;
+  border: 1px solid var(--border-grey);
+  width: 300px;
+  margin: 2em 1em;
+}
+
+#email::placeholder {
+  font-family: var(--font-style);
+}
+
+.email-submit {
+  padding: 1em 1.5em;
+  border: none;
+  cursor: pointer;
+}
+
+footer input + p {
+  color: var(--font-mega-light-grey);
+}
